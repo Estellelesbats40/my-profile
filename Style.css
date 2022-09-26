@@ -1,0 +1,43 @@
+.container {
+	width: 700px;
+	margin : 0auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+	margin: 50px;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	text-align: center;
+}
+
+#card-name {
+	font-size: 54px
+}
+
+#card-img {
+	background-image: linear-gradient(-220deg,rgba(0, 0, 0, 0.6)0%, rgba(0, 0, 0, 0.2)50%), url("images/background.jpg");
+	color: white;
+	background-size: cover;
+	background-position: center;
+}
+
+#card-gradient {
+	color: white;
+	background: linear-gradient(-220deg, green 0%, yellow 75%);
+}
+
+/*media queries*/
+
+@media (max-width:  900px){
+	.container{
+		width: 450px;
+	}
+}
+
+@media (max-width:  500px){
+	.container{
+		width: 250px;
+	}
+}
